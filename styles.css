@@ -1,0 +1,33 @@
+h1 {
+    color: #e84444;
+    font-family: japanese;
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    width: 175px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.akatsuki {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(50, 50, 50);
+}
+
+@font-face {
+    font-family: japanese;
+    src:url(japanese_2020/JAPANESE_2020.ttf)
+}
