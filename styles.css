@@ -138,3 +138,15 @@ button {
 }
 
 /* MENU END */
+
+/* TOKYO GHOUL CSS */
+
+.background-image {
+    background-image: url(./content/kaneki.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
