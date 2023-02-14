@@ -53,7 +53,7 @@ h1 {
 
 img {
     height: 100px;
-    width: 175px;
+    width: 250px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -66,6 +66,7 @@ img {
     filter: drop-shadow(10px 10px 2px rgb(36, 36, 36));
 }
 
+
 #naruto-button:active , #titan-button:active {
     filter: drop-shadow(5px 6px 2px rgb(36, 36, 36));
     top: 6px;
@@ -74,6 +75,8 @@ img {
 #naruto-button:hover {
     filter: drop-shadow(none);
 } */
+
+
 
 
 button {
@@ -169,7 +172,7 @@ button {
 
 /* MENU END */
 
-/* TOKYO GHOUL CSS */
+/* --------------------------TOKYO GHOUL CSS------------------------------ */
 
 .background-image {
     background-image: url(./content/kaneki.png);
@@ -180,3 +183,154 @@ button {
     filter: invert(1);
 }
 
+.ghoul-button {
+    font-family: japanese;
+    font-size: 4vw;
+    background-image: url(./content/ghoul-teeth.jpg);
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 2px red;
+    -webkit-filter: invert(1);
+    color: transparent;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-5%);
+}
+
+.p-character {
+    color: rgb(0, 0, 0);
+    -webkit-filter: invert(1);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.p-quote {
+    color: rgb(0, 0, 0);
+    -webkit-filter: invert(1);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.character-title {
+    color: rgb(0, 0, 0);
+    -webkit-filter: invert(1);
+    -webkit-text-stroke: 0.5px red;
+    font-family: japanese;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.quote-title {
+    color: rgb(0, 0, 0);
+    -webkit-filter: invert(1);
+    -webkit-text-stroke: 0.5px red;
+    font-family: japanese;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* ---------------------DEATH NOTE CSS----------------------- */
+
+@font-face {
+    font-family: death-note;
+    src: url(./Death-Note-Font/Death_Note_Font_by_Karlibell22.ttf);
+}
+
+.ryuk-background {
+    background-image: url(./content/death-note.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.ryuk-button {
+    font-family: death-note;
+    font-size: 4vw;
+    color: #fff;
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-5%);
+}
+
+.ryuk-character {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.ryuk-quote {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.character-ryuk {
+    color: #fff;
+    font-family: death-note;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.quote-ryuk {
+    color: #fff;
+    font-family: death-note;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+}
