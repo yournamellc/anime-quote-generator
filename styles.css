@@ -24,6 +24,24 @@ body {
     background-color: var(--gray);
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+padding: 1rem;
+width: 50%;
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 
 h1 {
     /* color: #e84444; */
@@ -40,11 +58,23 @@ img {
     vertical-align: middle;
 }
 
-.akatsuki {
+.akatsuki , #naruto-button, #titan-button {
     display: block;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
+    filter: drop-shadow(10px 10px 2px rgb(36, 36, 36));
 }
+
+#naruto-button:active , #titan-button:active {
+    filter: drop-shadow(5px 6px 2px rgb(36, 36, 36));
+    top: 6px;
+}
+/* 
+#naruto-button:hover {
+    filter: drop-shadow(none);
+} */
+
 
 button {
     background-color: transparent;
