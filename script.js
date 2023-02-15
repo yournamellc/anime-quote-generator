@@ -1,23 +1,3 @@
-
-
-
-
-// $(document).ready(function () {
-// 	// JQUERY NAV TOGGLE
-// 	$("#menu").bind("click", function (event) {
-// 		$("#mainnav ul").slideToggle();
-// 	});
-
-// 	$(window).resize(function () {
-// 		var w = $(window).width();
-// 		if (w > 768) {
-// 			$("#mainnav ul").removeAttr("style");
-// 		}
-// 	});
-// });
-
-// TOKYO GHOUL QUOTE FUNCTION
-
 // ************************** naruto **************************
 
 const button = document.querySelector("#naruto-button");
@@ -77,6 +57,22 @@ if (ryuk) {
 				let ryukData = response[Math.floor(Math.random() * response.length)];
 				document.getElementById("quote").innerHTML = ryukData.quote;
 				document.getElementById("character").innerHTML = ryukData.character;
+			});
+	});
+}
+
+// ---------------------JUJUTSU KAISEN FUNCTION-----------------------------
+
+const jujutsu = document.querySelector("#kaisen-button");
+if (jujutsu) {
+	jujutsu.addEventListener("click", function () {
+		fetch("json/jujutsu.json")
+			.then((response) => response.json())
+			.then((response) => {
+				console.log(response);
+				let jujutsuData = response[Math.floor(Math.random() * response.length)];
+				document.getElementById("quote").innerHTML = jujutsuData.quote;
+				document.getElementById("character").innerHTML = jujutsuData.character;
 			});
 	});
 }
