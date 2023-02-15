@@ -180,7 +180,7 @@ button {
 .ghoul-button, #kaneki-button {
     display: block;
     font-family: japanese;
-    font-size: 4vw;
+    font-size: 4rem;
     background-image: url(./content/ghoul-teeth.jpg);
     background-size: cover;
     background-clip: text;
@@ -227,6 +227,7 @@ button {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    width: 800px;
 }
 
 .character-title {
@@ -271,9 +272,9 @@ button {
     height: 100vh;
 }
 
-.ryuk-button {
+.ryuk-button, #deathnote-button {
     font-family: death-note;
-    font-size: 4vw;
+    font-size: 4rem;
     color: #fff;
     background-size: cover;
     background-clip: text;
@@ -285,6 +286,12 @@ button {
     top: 70%;
     left: 30%;
     transform: translateX(-50%) translateY(-5%);
+    filter: drop-shadow(10px 10px 2px rgb(36, 36, 36));
+}
+
+#deathnote-button:active {
+    filter: drop-shadow(5px 6px 4px rgb(36, 36, 36));
+    top: 70.5%;
 }
 
 .ryuk-character {
@@ -306,9 +313,11 @@ button {
     padding: 0;
     text-align: center;
     position: absolute;
+    word-wrap: break-word;
     top: 55%;
     left: 30%;
     transform: translateX(-50%) translateY(-50%);
+    width: 800px
 }
 
 .character-ryuk {
@@ -332,5 +341,93 @@ button {
     position: absolute;
     top: 45%;
     left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* ----------------------JUJUTSU KAISEN CSS------------------------------ */
+
+@font-face {
+    font-family: jujutsu;
+    src:url(jujutsu-kaisen-font/Jujutsu-Kaisen.ttf)
+}
+
+.jujutsu-background {
+    background-image: url(./content/gojo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    image-rendering:optimizeQuality;
+    filter: invert(1);
+
+}
+
+.jujutsu-button, #kaisen-button {
+    font-family: jujutsu;
+    font-size: 4rem;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-5%);
+    filter: drop-shadow(10px 10px 2px rgb(36, 36, 36));
+}
+
+#kaisen-button:active {
+    filter: drop-shadow(5px 6px 4px rgb(36, 36, 36));
+    top: 65.5%;
+}
+
+.jujutsu-character {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.jujutsu-quote {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    word-wrap: break-word;
+    top: 55%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 800px
+}
+
+.character-kaisen {
+    color: #fff;
+    font-family: jujutsu;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.quote-kaisen {
+    color: #fff;
+    font-family: jujutsu;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 70%;
     transform: translateX(-50%) translateY(-50%);
 }
