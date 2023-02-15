@@ -1,6 +1,7 @@
 
 
 
+
 // $(document).ready(function () {
 // 	// JQUERY NAV TOGGLE
 // 	$("#menu").bind("click", function (event) {
@@ -47,7 +48,6 @@ if (titanButton) {
 			.catch((err) => console.error(err));
 	});
 }
-
 
 // ------------------TOKYO GHOUL QUOTE FUNCTION------------------------
 
