@@ -5,13 +5,7 @@
     /* border: 1px red solid; */
     padding: 0;
     margin: 0;
-    /* font-family: "Calibre",
-        "Inter",
-        "San Francisco",
-        "SF Pro Text",
-        -apple-system,
-        system-ui,
-        sans-serif; */
+
 }
 
 :root {
@@ -52,7 +46,6 @@ h1 {
 }
 
 img {
-    height: 100px;
     width: 250px;
     display: inline-block;
     vertical-align: middle;
@@ -135,7 +128,8 @@ button {
 }
 
 #mainnav ul li a:hover {
-    color: #e84444;
+    background-color: hsl(0, 0%, 16%);
+    border-radius: 5px;
 }
 
 .content {
