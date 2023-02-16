@@ -6,6 +6,11 @@
         <title>Anime Quote Generator</title>
         <link rel="" href="Naruto.json">
         <link rel="stylesheet" href="naruto-character.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fira+Code:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
         <script>
             $(function () {
@@ -14,15 +19,16 @@
         </script>
     </head>
 
-    <body>
+    <body class="titan-background">
         <div id="menu"></div>
-        <h1>attack on titan QUOTE GENERATOR</h1>
+        <h1 class="titan-title">attack on titan</h1>
         <button id="titan-button">
-            <img src="./content/Akatsuki-Logo.png" />
+            <p>Generate</p>
         </button>
+
         <div class="container">
             <div class="item quote">
-                <p id="quote"></p>
+                <p class="titan-quote" id="quote"></p>
             </div>
         </div>
         <script src="script.js"></script>
