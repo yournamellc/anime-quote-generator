@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <title>Anime Quote Generator</title>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script>
+            $(function () {
+                $("#menu").load("menu.html");
+            });
+        </script>
+    </head>
+
+    <body class="jujutsu-background">
+     
+        <div id="menu"></div>
+        <div class="character-kaisen">
+            <h2>Character:</h2>
+        </div>
+        <div class="jujutsu-character" id="character">
+            <p></p>
+        </div>
+        <div class="quote-kaisen">
+            <h2>Quote:</h2>
+        </div>
+        <div class="jujutsu-quote" id="quote">
+            <p></p>
+        </div>
+        <div>
+            <button id="kaisen-button" class="jujutsu-button">
+                GET QUOTE
+            </button>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
