@@ -17,17 +17,52 @@ if (button) {
 
 const titanButton = document.querySelector("#titan-button");
 
+let currentQuote;
+
+// let quoteGenerator2 = (response) => {
+// 	let newQuote = response[Math.floor(Math.random() * response.length)].quote;
+// 	if (newQuote !== currentQuote) {
+// 		currentQuote = newQuote;
+// 		return newQuote;
+// 	} else {
+// 		return quoteGenerator(response);
+// 	}
+// };
+
+let quoteGenerator = (response) => {
+	let newQuote = response[Math.floor(Math.random() * response.length)].quote;
+	while (newQuote === currentQuote) {
+		newQuote = response[Math.floor(Math.random() * response.length)].quote;
+	}
+	currentQuote = newQuote;
+	console.log(newQuote);
+	return newQuote;
+};
+
 if (titanButton) {
 	titanButton.addEventListener("click", function () {
 		fetch("json/titan.json")
 			.then((response) => response.json())
 			.then((response) => {
-				let randomItem = response[Math.floor(Math.random() * response.length)];
-				document.getElementById("quote").innerHTML = randomItem.quote;
+				document.getElementById("quote").innerHTML = quoteGenerator(response);
 			})
 			.catch((err) => console.error(err));
 	});
 }
+console.log(response.quote);
+
+// if (titanButton) {
+// 	titanButton.addEventListener("click", function () {
+// 		fetch("json/titan.json")
+// 			.then((response) => response.json())
+// 			.then((response) => {
+// 				let randomItem = response[Math.floor(Math.random() * response.length)];
+// 				document.getElementById("quote").innerHTML = randomItem.quote;
+// 				console.log(randomItem.quote);
+// 			})
+// 			.catch((err) => console.error(err));
+// 	});
+// }
 
 // ------------------TOKYO GHOUL QUOTE FUNCTION------------------------
 
