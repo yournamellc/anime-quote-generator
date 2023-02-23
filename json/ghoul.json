@@ -1,7 +1,7 @@
 [
     {
       "anime": "Tokyo Ghoul √A",
-      "character": "Kaneki Ken",
+      "character": "Ken Kaneki",
       "quote": "Never trust anyone too much... Remember the devil was once an angel..."
     },
     {
@@ -11,8 +11,8 @@
     },
     {
       "anime": "Tokyo Ghoul",
-      "character": "Kaneki Ken",
-      "quote": "You're wrong. It's not the world that's messed up; it's those of us in it. Yes, some ghouls walk a path that leaves sorrow in their wake, but just like humans, we can choose a different path altogether. We have a lot to learn, both your kind and mine. We need to stop fighting, and start talking. Because when it comes to the state of the world, you can't point your finger at ghouls or humans. We're all to blame."
+      "character": "Ken Kaneki",
+      "quote": "You're wrong. It's not the world that's messed up; it's those of us in it."
     },
     {
       "anime": "Tokyo Ghoul",
@@ -26,8 +26,8 @@
     },
     {
       "anime": "Tokyo Ghoul:re",
-      "character": "Kaneki Ken",
-      "quote": "Donato has to keep proving himself. He wants to prove just how valuable he is. Isn't that the case with you as well? Because you are the same as Donato. All you're doing is indulging in this twisted self-value that you have to yourself. And if you don't, you won't last. Eventually, you will break and become useless. Once that happens, you'll break and become discarded."
+      "character": "Ken Kaneki",
+      "quote": "Human relationships are chemical reactions. If you have a reaction then you can never return back to your previous state of being."
     },
     {
       "anime": "Tokyo Ghoul",
@@ -36,12 +36,42 @@
     },
     {
       "anime": "Tokyo Ghoul",
-      "character": "Touka Kirishima",
-      "quote": "After you've gobbled him down you'd be left alone to regret it while covered in blood and guts. That's the hunger of a ghoul. That's our destiny."
+      "character": "Rize Kamishiro",
+      "quote": "There are times when you have to give up on one thing to preserve the other."
     },
     {
       "anime": "Tokyo Ghoul",
-      "character": "Kaneki Ken",
-      "quote": "As my fingers and toes re-grew like fingernails or hair over and over and over and over... and over again, every single time I got the feeling that I truly, truly truly was a monster."
+      "character":"Rize Kamishiro",
+      "quote": "There's no such thing as fate. It's simply a combination of one circumstance and the next."
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Shuu Tsukiyama",
+      "quote": "I'm not going to protect you by being your shield or armor, but I'll be the dagger hidden below your pillow."
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Kishou Arima",
+      "quote": "Sometimes good people make bad choices, it doesn't mean they are bad people. It means they are human."
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Yoshimura",
+      "quote": "Life is to constantly sin. Life is evil itself. I am aware I am evil... And so are you all. Now, come kill me and, I shall do the same."
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Juuzou Suzuya",
+      "quote": "Why should I apologize for being a monster? Has anyone ever apologized for turning me into one?"
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Kureo Mado",
+      "quote": "When you're in front of the enemy, even if your hands are trembling — fight."
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Ken Kaneki",
+      "quote": "Why is it that beautiful things entwined more deeply with death than with life?"
     }
   ]
