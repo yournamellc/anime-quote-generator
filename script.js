@@ -49,20 +49,19 @@ if (titanButton) {
 			.catch((err) => console.error(err));
 	});
 }
-console.log(response.quote);
 
-// if (titanButton) {
-// 	titanButton.addEventListener("click", function () {
-// 		fetch("json/titan.json")
-// 			.then((response) => response.json())
-// 			.then((response) => {
-// 				let randomItem = response[Math.floor(Math.random() * response.length)];
-// 				document.getElementById("quote").innerHTML = randomItem.quote;
-// 				console.log(randomItem.quote);
-// 			})
-// 			.catch((err) => console.error(err));
-// 	});
-// }
+if (titanButton) {
+	titanButton.addEventListener("click", function () {
+		fetch("json/titan.json")
+			.then((response) => response.json())
+			.then((response) => {
+				let randomItem = response[Math.floor(Math.random() * response.length)];
+				document.getElementById("quote").innerHTML = randomItem.quote;
+				console.log(randomItem.quote);
+			})
+			.catch((err) => console.error(err));
+	});
+}
 
 // ------------------TOKYO GHOUL QUOTE FUNCTION------------------------
 
