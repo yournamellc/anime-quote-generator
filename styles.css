@@ -350,7 +350,7 @@ button {
 /* ---------------------Titan CSS----------------------- */
 
 .titan-background {
-    background: url("https://images2.alphacoders.com/607/thumb-1920-607701.png");   
+    background-image: url(./content/eren.png);   
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;

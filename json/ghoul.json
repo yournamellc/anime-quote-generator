@@ -1,18 +1,8 @@
 [
     {
-      "anime": "Tokyo Ghoul √A",
-      "character": "Ken Kaneki",
-      "quote": "Never trust anyone too much... Remember the devil was once an angel..."
-    },
-    {
       "anime": "Tokyo Ghoul:re",
       "character": "Koutarou Amon",
       "quote": "What is right... what is wrong... you can't easily tell the difference. That's why you must keep thinking, whether what you are doing is right or not. That act itself, alone, can be called right."
-    },
-    {
-      "anime": "Tokyo Ghoul",
-      "character": "Ken Kaneki",
-      "quote": "You're wrong. It's not the world that's messed up; it's those of us in it."
     },
     {
       "anime": "Tokyo Ghoul",
@@ -46,11 +36,6 @@
     },
     {
       "anime": "Tokyo Ghoul",
-      "character": "Shuu Tsukiyama",
-      "quote": "I'm not going to protect you by being your shield or armor, but I'll be the dagger hidden below your pillow."
-    },
-    {
-      "anime": "Tokyo Ghoul",
       "character": "Kishou Arima",
       "quote": "Sometimes good people make bad choices, it doesn't mean they are bad people. It means they are human."
     },
@@ -71,7 +56,107 @@
     },
     {
       "anime": "Tokyo Ghoul",
+      "character": "Touka Kirishima",
+      "quote": "There’s no way someone who can’t even protect himself can protect anyone else, is there?" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Shuu Tsukiyama",
+      "quote": "Isn’t it arrogant to put a price on whether life is “higher” or “lower”, Kaneki? We are just bags of meat. The weak bow down and the strong devour them. Rather, if you compared them to all living things, it’s humans who have shaved away the most lives." 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Shuu Tsukiyama",
+      "quote": "You don’t need to blame yourself just because you’ve hurt someone, just like when you’re walking you can’t really blame yourself to crush some ants." 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Shuu Tsukiyama",
+      "quote": "I'm not going to protect you by being your shield or armor, but I'll be the dagger hidden below your pillow."
+    },
+    {
+      "anime": "Tokyo Ghoul",
       "character": "Ken Kaneki",
       "quote": "Why is it that beautiful things entwined more deeply with death than with life?"
+    },
+    {
+      "anime": "Tokyo Ghoul √A",
+      "character": "Ken Kaneki",
+      "quote": "Never trust anyone too much... Remember the devil was once an angel..."
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "",
+      "quote": "" 
     }
   ]
