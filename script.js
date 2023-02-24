@@ -1,3 +1,40 @@
+var prevIndex = -1;
+
+function quoteGenerator(response) {
+	// Get the number of quotes in the JSON object
+	var numQuotes = response.length;
+
+	// Generate a random index between 0 and numQuotes - 1, but not the same as prevIndex
+	var randomIndex;
+	do {
+		randomIndex = Math.floor(Math.random() * numQuotes);
+	} while (randomIndex === prevIndex);
+	console.log("prevIndex:", prevIndex);
+
+	prevIndex = randomIndex;
+
+	// Retrieve the quote and character at the random index
+	var quote = response[randomIndex].quote;
+	var character = response[randomIndex].character;
+
+	// Return an object with the quote and character
+	return { quote: quote, character: character };
+}
+
+// ----------------GLOBAL QUOTE & CHARACTER FUNCTIONS----------------------------------
+
+// let currentQuote;
+
+// let quoteGenerator = (response) => {
+// 	let newQuote = response[Math.floor(Math.random() * response.length)];
+// 	while (newQuote === currentQuote) {
+// 		newQuote = response[Math.floor(Math.random() * response.length)];
+// 	}
+// 	currentQuote = newQuote;
+// 	console.log(newQuote);
+// 	return newQuote;
+// };
+
 // ************************** naruto **************************
 
 const button = document.querySelector("#naruto-button");
@@ -6,8 +43,8 @@ if (button) {
 		fetch("json/naruto.json")
 			.then((response) => response.json())
 			.then((response) => {
-				let randomItem = response[Math.floor(Math.random() * response.length)];
-				document.getElementById("quote").innerHTML = randomItem.quote;
+				let x = quoteGenerator(response);
+				document.getElementById("quote").innerHTML = x["quote"];
 			})
 			.catch((err) => console.error(err));
 	});
@@ -17,47 +54,13 @@ if (button) {
 
 const titanButton = document.querySelector("#titan-button");
 
-let currentQuote;
-
-// let quoteGenerator2 = (response) => {
-// 	let newQuote = response[Math.floor(Math.random() * response.length)].quote;
-// 	if (newQuote !== currentQuote) {
-// 		currentQuote = newQuote;
-// 		return newQuote;
-// 	} else {
-// 		return quoteGenerator(response);
-// 	}
-// };
-
-let quoteGenerator = (response) => {
-	let newQuote = response[Math.floor(Math.random() * response.length)].quote;
-	while (newQuote === currentQuote) {
-		newQuote = response[Math.floor(Math.random() * response.length)].quote;
-	}
-	currentQuote = newQuote;
-	console.log(newQuote);
-	return newQuote;
-};
-
 if (titanButton) {
 	titanButton.addEventListener("click", function () {
 		fetch("json/titan.json")
 			.then((response) => response.json())
 			.then((response) => {
-				document.getElementById("quote").innerHTML = quoteGenerator(response);
-			})
-			.catch((err) => console.error(err));
-	});
-}
-
-if (titanButton) {
-	titanButton.addEventListener("click", function () {
-		fetch("json/titan.json")
-			.then((response) => response.json())
-			.then((response) => {
-				let randomItem = response[Math.floor(Math.random() * response.length)];
-				document.getElementById("quote").innerHTML = randomItem.quote;
-				console.log(randomItem.quote);
+				let x = quoteGenerator(response);
+				document.getElementById("quote").innerHTML = x["quote"];
 			})
 			.catch((err) => console.error(err));
 	});
@@ -66,16 +69,30 @@ if (titanButton) {
 // ------------------TOKYO GHOUL QUOTE FUNCTION------------------------
 
 const kaneki = document.querySelector("#kaneki-button");
+
+// if (kaneki) {
+// 	kaneki.addEventListener("click", function () {
+// 		fetch("json/ghoul.json")
+// 			.then((response) => response.json())
+// 			.then((response) => {
+// 				let x = quoteGenerator(response);
+// 				document.getElementById("character").innerHTML = x["character"];
+// 				document.getElementById("quote").innerHTML = x["quote"];
+// 			});
+// 	});
+// }
+
 if (kaneki) {
-	kaneki.addEventListener("click", function () {
-		fetch("json/ghoul.json")
-			.then((response) => response.json())
-			.then((response) => {
-				console.log(response);
-				let animeData = response[Math.floor(Math.random() * response.length)];
-				document.getElementById("quote").innerHTML = animeData.quote;
-				document.getElementById("character").innerHTML = animeData.character;
-			});
+	kaneki.addEventListener("click", async function () {
+		try {
+			const response = await fetch("json/ghoul.json");
+			const data = await response.json();
+			const { quote, character } = quoteGenerator(data);
+			document.getElementById("character").innerHTML = character;
+			document.getElementById("quote").innerHTML = quote;
+		} catch (error) {
+			console.error(error);
+		}
 	});
 }
 
@@ -87,10 +104,9 @@ if (ryuk) {
 		fetch("json/ryuk.json")
 			.then((response) => response.json())
 			.then((response) => {
-				console.log(response);
-				let ryukData = response[Math.floor(Math.random() * response.length)];
-				document.getElementById("quote").innerHTML = ryukData.quote;
-				document.getElementById("character").innerHTML = ryukData.character;
+				let x = quoteGenerator(response);
+				document.getElementById("quote").innerHTML = x["quote"];
+				document.getElementById("character").innerHTML = x["character"];
 			});
 	});
 }
@@ -103,10 +119,9 @@ if (jujutsu) {
 		fetch("json/jujutsu.json")
 			.then((response) => response.json())
 			.then((response) => {
-				console.log(response);
-				let jujutsuData = response[Math.floor(Math.random() * response.length)];
-				document.getElementById("quote").innerHTML = jujutsuData.quote;
-				document.getElementById("character").innerHTML = jujutsuData.character;
+				let x = quoteGenerator(response);
+				document.getElementById("quote").innerHTML = x["quote"];
+				document.getElementById("character").innerHTML = x["character"];
 			});
 	});
 }
