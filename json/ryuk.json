@@ -1,13 +1,98 @@
 [
     {
       "anime": "Death Note",
-      "character": "Light Yagami",
-      "quote": "I am the God placed here to save the weak and create a perfect world."
+      "character": "Misa Amane",
+      "quote": "Unless someone makes the first move, nothing will happen."
     },
     {
       "anime": "Death Note",
       "character": "Misa Amane",
-      "quote": "Unless someone makes the first move, nothing will happen."
+      "quote": "Careful what you do, cuz “God” is watching your every move. Hold my hand in the dark street, for if you do I know that I'll.. be safe. Even if I'm far away and alone, I can be sure that you'll find me there, this I know."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Misa Amane",
+      "quote": "I can't even imagine a world without Light."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Mello",
+      "quote": "In the end, there is no greater motivation than revenge."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Mello",
+      "quote": "It's time I started living my own life."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Mikami Teru",
+      "quote": "In this world, there is only good and evil, that was the first universal truth I grasped from observing the world around me when I was a child. Every human being without exception ends up falling into one category or the other."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Ryuk",
+      "quote": "The human world is a boring place with boring people doing boring things."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Ryuk",
+      "quote": "I don't care if it is fortunate or unfortunate that Light picked up the Death Note. However… It is generally bad luck for a person to be followed by a God of Death."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Ryuk",
+      "quote": "All humans die the same, the place they go after death isn't decided upon by a god it is Mu (nothingness)."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Sochiro Yagami",
+      "quote": "Laws aren't perfect, because humans who created laws aren't perfect. It's impossible to be perfect. However, the laws are evidence of the human's struggle to be righteous."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Sochiro Yagami",
+      "quote": "The real evil is the power to kill people. Someone who finds himself with that power is cursed. No matter how you use it, anything obtained by killing people can never bring true happiness."
+    },
+    {
+      "anime": "Death Note",
+      "character": "L Lawliet",
+      "quote": "It's not a sense of justice. Figuring out difficult cases is my hobby. If you measured good and evil deeds by current laws, I would be responsible for many crimes. The same way you all like to solve mysteries and riddles, or clear video games more quickly. For me too, it's simply prolonging something I enjoy doing. That's why I only take on cases that pique my interest. It's not justice at all. And if it means being able to clear a case, I don't play fair, I'm a dishonest, cheating human being who hates losing."
+    },
+    {
+      "anime": "Death Note",
+      "character": "L Lawliet",
+      "quote": "This isn't divine judgement. It's the work of some childish killer who's playing at divine retribution. That's all."
+    },
+    {
+      "anime": "Death Note",
+      "character": "L Lawliet",
+      "quote": "Kira is childish and he hates losing… I'm also childish and hate to lose. That's how I know."
+    },
+    {
+      "anime": "Death Note",
+      "character": "L Lawliet",
+      "quote": "There is no heaven or hell. No matter what you do while you're alive, everybody goes to the same place once you die. Death is Equal."
+    },
+    {
+      "anime": "Death Note",
+      "character": "L Lawliet",
+      "quote": "Being alone is better than being with the wrong person."
+    },
+    {
+      "anime": "Death Note",
+      "character": "L Lawliet",
+      "quote": "There are… many types of monsters in this world: Monsters who will not show themselves and who cause trouble; monsters who abduct children; monsters who devour dreams; monsters who suck blood, and… monsters who always tell lies."
+    },
+    {
+      "anime": "Death Note",
+      "character": "L Lawliet",
+      "quote": "Learn to treasure your life because unfortunately, it can be taken away from you anytime."
+    },
+    {
+      "anime": "Death Note",
+      "character": "L Lawliet",
+      "quote": "Sometimes, the questions are complicated - and the answers are simple."
     },
     {
       "anime": "Death Note",
@@ -26,22 +111,42 @@
     },
     {
       "anime": "Death Note",
-      "character": "Mikami Teru",
-      "quote": "In this world, there is only good and evil, that was the first universal truths I grasped from observing the world around me when I was a child. Every human being without exception ends up falling into one category or the other."
+      "character": "Light Yagami",
+      "quote": "Look around you, and all you will see are people the world would be better off without."
     },
     {
       "anime": "Death Note",
-      "character": "L Lawliet",
-      "quote": "It's not a sense of justice. Figuring out difficult cases is my hobby. If you measured good and evil deeds by current laws, I would be responsible for many crimes. The same way you all like to solve mysteries and riddles, or clear video games more quickly. For me too, it's simply prolonging something I enjoy doing. That's why I only take on cases that pique my interest. It's not justice at all. And if it means being able to clear a case, I don't play fair, I'm a dishonest, cheating human being who hates losing."
+      "character": "Light Yagami",
+      "quote": "I can't develop feelings. That's how most idiots screw up."
     },
     {
       "anime": "Death Note",
-      "character": "Misa Amane",
-      "quote": "I can't even imagine a world without Light."
+      "character": "Light Yagami",
+      "quote": "For murderers, there is no good or evil. I know that."
     },
     {
       "anime": "Death Note",
-      "character": "L Lawliet",
-      "quote": "Sometimes, the questions are complicated - and the answers are simple."
+      "character": "Light Yagami",
+      "quote": "The thing I hate the most is to trample on other people's good will."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Light Yagami",
+      "quote": "You can't ever win if you're always on the defensive. To win, you have to attack!"
+    },
+    {
+      "anime": "Death Note",
+      "character": "Light Yagami",
+      "quote": "I am the God placed here to save the weak and create a perfect world."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Near",
+      "quote": "People in supervising positions in investigation are supposed to give too much of their opinion, and if they are wrong, all it would take is an apology."
+    },
+    {
+      "anime": "Death Note",
+      "character": "Near",
+      "quote": "If you can't beat the game, if you can't solve the puzzle, you're nothing but a loser"
     }
   ]

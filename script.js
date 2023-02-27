@@ -88,7 +88,7 @@ const ryuk = document.querySelector("#deathnote-button");
 if (ryuk) {
     ryuk.addEventListener("click", async function () {
         try {
-            const response = await fetch("json/ghoul.json");
+            const response = await fetch("json/ryuk.json");
             const data = await response.json();
             const { quote, character } = quoteGenerator(data);
             document.getElementById("character").innerHTML = character;
@@ -105,7 +105,7 @@ const jujutsu = document.querySelector("#kaisen-button");
 if (jujutsu) {
     jujutsu.addEventListener("click", async function () {
         try {
-            const response = await fetch("json/ghoul.json");
+            const response = await fetch("json/jujutsu.json");
             const data = await response.json();
             const { quote, character } = quoteGenerator(data);
             document.getElementById("character").innerHTML = character;
