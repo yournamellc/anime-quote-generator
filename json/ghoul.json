@@ -1,18 +1,8 @@
 [
     {
-      "anime": "Tokyo Ghoul √A",
-      "character": "Ken Kaneki",
-      "quote": "Never trust anyone too much... Remember the devil was once an angel..."
-    },
-    {
       "anime": "Tokyo Ghoul:re",
       "character": "Koutarou Amon",
       "quote": "What is right... what is wrong... you can't easily tell the difference. That's why you must keep thinking, whether what you are doing is right or not. That act itself, alone, can be called right."
-    },
-    {
-      "anime": "Tokyo Ghoul",
-      "character": "Ken Kaneki",
-      "quote": "You're wrong. It's not the world that's messed up; it's those of us in it."
     },
     {
       "anime": "Tokyo Ghoul",
@@ -25,14 +15,94 @@
       "quote": "The sorrows of life...To not be able to live like yourself. The joys of life...To be able to die like yourself."
     },
     {
+      "anime": "Tokyo Ghoul",
+      "character": "Renji Yomo",
+      "quote": "All we can do is live while losing things."
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Kishou Arima",
+      "quote": "Sometimes good people make bad choices, it doesn't mean they are bad people. It means they are human."
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Juuzou Suzuya",
+      "quote": "Why should I apologize for being a monster? Has anyone ever apologized for turning me into one?"
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Touka Kirishima",
+      "quote": "There's no way someone who can't even protect himself can protect anyone else, is there?" 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Shuu Tsukiyama",
+      "quote": "Isn't it arrogant to put a price on whether life is “higher” or “lower”, Kaneki? We are just bags of meat. The weak bow down and the strong devour them. Rather, if you compared them to all living things, it's humans who have shaved away the most lives." 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Shuu Tsukiyama",
+      "quote": "You don't need to blame yourself just because you've hurt someone, just like when you're walking you can't really blame yourself to crush some ants." 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Shuu Tsukiyama",
+      "quote": "I'm not going to protect you by being your shield or armor, but I'll be the dagger hidden below your pillow."
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Ken Kaneki",
+      "quote": "Why is it that the beautiful things are entwined more deeply with death than with life?"
+    },
+    {
+      "anime": "Tokyo Ghoul √A",
+      "character": "Ken Kaneki",
+      "quote": "Never trust anyone too much... Remember the devil was once an angel..."
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Ken Kaneki",
+      "quote": "I was wrong. I wasn't eating ghouls. I'm the one who was being eaten." 
+    },
+    {
       "anime": "Tokyo Ghoul:re",
       "character": "Ken Kaneki",
       "quote": "Human relationships are chemical reactions. If you have a reaction then you can never return back to your previous state of being."
     },
     {
       "anime": "Tokyo Ghoul",
-      "character": "Renji Yomo",
-      "quote": "All we can do is live while losing things."
+      "character": "Ken Kaneki",
+      "quote": "All the liabilities in this world are due to the inadequacies of the person involved." 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Ken Kaneki",
+      "quote": "It's better to be hurt than to hurt others. Nice people can be happy with just that." 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Ken Kaneki",
+      "quote": "If you were to write a story with me in the lead role, it would certainly be… a tragedy." 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Kureo Mado",
+      "quote": "As long as it's for the right cause, there's nothing wrong with playing dirty." 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Kureo Mado",
+      "quote": "You only need a strong will and a clear purpose." 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Kureo Mado",
+      "quote": "When you're in front of the enemy, even if your hands are trembling — fight."
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Juuzou Suzuya",
+      "quote": "If an angelic being fell from the sky and tried to live in this world of ours, I think even they would commit many wrongs." 
     },
     {
       "anime": "Tokyo Ghoul",
@@ -46,13 +116,18 @@
     },
     {
       "anime": "Tokyo Ghoul",
-      "character": "Shuu Tsukiyama",
-      "quote": "I'm not going to protect you by being your shield or armor, but I'll be the dagger hidden below your pillow."
+      "character": "Rize Kamishiro",
+      "quote": "All of the disadvantages in this world stem from a person's lack of ability." 
     },
     {
       "anime": "Tokyo Ghoul",
-      "character": "Kishou Arima",
-      "quote": "Sometimes good people make bad choices, it doesn't mean they are bad people. It means they are human."
+      "character": "Yakumo Oomori",
+      "quote": "Doing what one likes is the right of the powerful." 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Yakumo Oomori",
+      "quote": "All suffering in the world is born from an individual's incompetence." 
     },
     {
       "anime": "Tokyo Ghoul",
@@ -61,17 +136,22 @@
     },
     {
       "anime": "Tokyo Ghoul",
-      "character": "Juuzou Suzuya",
-      "quote": "Why should I apologize for being a monster? Has anyone ever apologized for turning me into one?"
+      "character": "Yoshimura",
+      "quote": "We're always trying to justify our actions with ideals. But ideals cannot give grounds for killing another person. The act of taking a life will always be considered… evil." 
     },
     {
       "anime": "Tokyo Ghoul",
-      "character": "Kureo Mado",
-      "quote": "When you're in front of the enemy, even if your hands are trembling — fight."
+      "character": "Yoshimura",
+      "quote": "It's not because we can't take vengeance that we should feel sorry. The real reason to feel sorry… is when one is hung up on revenge and can't live their own life." 
     },
     {
       "anime": "Tokyo Ghoul",
-      "character": "Ken Kaneki",
-      "quote": "Why is it that beautiful things entwined more deeply with death than with life?"
+      "character": "Uta",
+      "quote": "We need to have a mask that we never take off." 
+    },
+    {
+      "anime": "Tokyo Ghoul",
+      "character": "Ayato Kirishima",
+      "quote": "The world runs on power. Everything is determined by the superior power. You are weak. That is why you lose." 
     }
   ]

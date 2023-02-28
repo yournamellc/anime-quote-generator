@@ -52,7 +52,7 @@ img {
     vertical-align: middle;
 }
 
-.akatsuki , #naruto-button, #titan-button{
+.akatsuki , #naruto-button, #titan-button, #home-button{
     display: block;
     position: relative;
     margin-left: auto;
@@ -61,7 +61,7 @@ img {
 }
 
 
-#naruto-button:active , #titan-button:active {
+#naruto-button:active , #titan-button:active, #home-button:active {
     filter: drop-shadow(5px 6px 2px rgb(36, 36, 36));
     top: 6px;
 }
@@ -350,7 +350,7 @@ button {
 /* ---------------------Titan CSS----------------------- */
 
 .titan-background {
-    background: url("https://images2.alphacoders.com/607/thumb-1920-607701.png");   
+    background-image: url(./content/eren.png);   
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;

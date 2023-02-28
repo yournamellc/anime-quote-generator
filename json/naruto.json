@@ -1,29 +1,105 @@
-
-  
  [
   {
-    "_id": "635183a66e286b22d5bcaada",
-    "anime": "Boruto: Naruto Next Generations",
+    "_id": "635183a66e286b22d5bcb68c",
+    "anime": "Naruto",
     "character": "Naruto Uzumaki",
-    "quote": "The many lives lost during long years of conflict... because of those selfless sacrifices, we are able to bathe in peace and prosperity now. To ingrain this history within the new generation will be a vital cog in helping to maintain the peace."
+    "quote": "Hard work is worthless for those that don't believe in themselves."
   },
   {
-    "_id": "635183a66e286b22d5bcafe2",
-    "anime": "Naruto Shippūden",
-    "character": "Naruto Uzumaki",
-    "quote": "There is no telling what kind of pain will come  after me, but... if I stop believing because of that, if the hero should change, it'll turn into another story from the one my master left behind. Then it wont be Naruto! I can't write novels like my master did. That's why the sequel has to come from the life I live no matter how great the pain, I'll continue walking because that's who Naruto is!"
-  },
-  {
-    "_id": "635183a66e286b22d5bcb42d",
+    "_id": "635183a66e286b22d5bcb6cf",
     "anime": "Naruto",
     "character": "Naruto Uzumaki",
     "quote": "Because they saved me from myself, they rescued me from my loneliness. They were the first to accept me for who I am. They're my friends."
   },
   {
-    "_id": "635183a66e286b22d5bcb4a0",
+    "_id": "635183a66e286b22d5bcb6cf",
     "anime": "Naruto",
     "character": "Naruto Uzumaki",
-    "quote": "Once you question your own belief, it's over."
+    "quote": "I want to be with you. From now on, I want to spend all and every single one of my days until I die with you, and only you."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Naruto Uzumaki",
+    "quote": "If you don't like your destiny, don't accept it. Instead have the courage to change it the way you want it to be."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Naruto Uzumaki",
+    "quote": "If he rips my arms off, I'll kick him to death. If he rips my legs off, I'll bite him to death! If he rips my head off, I'll stare him to death! And if he gouges out my eyes, I'll curse him from beyond the grave."
+  },
+  {
+  "_id": "635183a66e286b22d5bcb6cf",
+  "anime": "Naruto",
+  "character": "Naruto Uzumaki",
+  "quote": "The pain of being alone is completely out of this world, isn't it? I don't know why, but I understand your feelings so much, it actually hurts."
+  },
+  {
+  "_id": "635183a66e286b22d5bcb4a0",
+  "anime": "Naruto",
+  "character": "Naruto Uzumaki",
+  "quote": "Once you question your own belief, it's over."
+  },
+  {
+  "_id": "635183a66e286b22d5bcb6cf",
+  "anime": "Naruto",
+  "character": "Naruto Uzumaki",
+  "quote": "It's not the face that makes someone a monster, it's the choices they make with their lives."
+  },
+  {
+  "_id": "635183a66e286b22d5bcb6cf",
+  "anime": "Naruto",
+  "character": "Naruto Uzumaki",
+  "quote": "The many lives lost during long years of conflict… because of those selfless sacrifices, we are able to bathe in peace and prosperity now. To ingrain this history within the new generation will be a vital cog in helping to maintain the peace."
+  },
+  {
+  "_id": "635183a66e286b22d5bcb6cf",
+  "anime": "Naruto",
+  "character": "Naruto Uzumaki",
+  "quote": "I will become a bigger badass than my father. And a stronger shinobi than my mother!"
+  },
+  {
+  "_id": "635183a66e286b22d5bcb6cf",
+  "anime": "Naruto",
+  "character": "",
+  "quote": "While you're alive, you need a reason for your existence. Being unable to find one is the same as being dead."
+  },
+  {
+  "_id": "635183a66e286b22d5bcb6cf",
+  "anime": "Naruto",
+  "character": "Naruto Uzumaki",
+  "quote": "People who continue to put their lives on the line to defend their faith become heroes and continue to exist on in legend."
+  },
+  {
+  "_id": "635183a66e286b22d5bcb6cf",
+  "anime": "Naruto",
+  "character": "Naruto Uzumaki",
+  "quote": "My name is Uzumaki Naruto. I like ramen. I hate the three minutes you have to wait while the water boils. And my dream is to one day become a Hokage. Then everyone will have to respect me at last."
+  },
+  {
+  "_id": "635183a66e286b22d5bcb6cf",
+  "anime": "Naruto",
+  "character": "Naruto Uzumaki",
+  "quote": "If you don't like the hand that fate's dealt you with, fight for a new one!"
+  },
+  {
+  "_id": "635183a66e286b22d5bcb6cf",
+  "anime": "Naruto",
+  "character": "Naruto Uzumaki",
+  "quote": "When people are protecting something truly special to them, they truly can become… as strong as they can be."
+  },
+  {
+  "_id": "635183a66e286b22d5bcb6cf",
+  "anime": "Naruto",
+  "character": "Naruto Uzumaki",
+  "quote": "When you give up, your dreams and everything else, they're gone."
+  },
+  {
+    "_id": "635183a66e286b22d5bcafe2",
+    "anime": "Naruto Shippūden",
+    "character": "Naruto Uzumaki",
+    "quote": "There is no telling what kind of pain will come after me, but... if I stop believing because of that, if the hero should change, it'll turn into another story from the one my master left behind. Then it wont be Naruto! I can't write novels like my master did. That's why the sequel has to come from the life I live no matter how great the pain, I'll continue walking because that's who Naruto is!"
   },
   {
     "_id": "635183a66e286b22d5bcb57b",
@@ -32,33 +108,567 @@
     "quote": "Don't underestimate me! I don't quit and I don't run! You can act tough all you want! You're not gonna scare me off! No way! I don't care if I DO get stuck as a Genin for the rest of my life! I'll still be Hokage someday!"
   },
   {
-    "_id": "635183a66e286b22d5bcb5eb",
+    "_id": "635183a66e286b22d5bcb6cf",
     "anime": "Naruto",
-    "character": "Naruto Uzumaki",
-    "quote": "People who continue to put their lives on the line to defend their faith become heroes and continue to exist on in legend."
+    "character": "Nagato",
+    "quote": "If you don't share someone's pain, you can never understand them."
   },
   {
-    "_id": "635183a66e286b22d5bcb66f",
+    "_id": "635183a66e286b22d5bcb6cf",
     "anime": "Naruto",
-    "character": "Naruto Uzumaki",
-    "quote": "When you give up, your dreams and everything else, they're gone."
+    "character": "Nagato",
+    "quote": "War brings death. And wounds and pain to both sides. There's nothing harder to accept, than the deaths of those you love. So you believe they could never die. Especially those who haven't known war."
   },
   {
-    "_id": "635183a66e286b22d5bcb68c",
+    "_id": "635183a66e286b22d5bcb6cf",
     "anime": "Naruto",
-    "character": "Naruto Uzumaki",
-    "quote": "Hard work is worthless for those that don't believe in themselves."
+    "character": "Madara Uchiha",
+    "quote": "The concept of hope is nothing more than giving up. A word that holds no true meaning"
   },
   {
-    "_id": "635183a66e286b22d5bcb6ce",
+    "_id": "635183a66e286b22d5bcb6cf",
     "anime": "Naruto",
-    "character": "Naruto Uzumaki",
-    "quote": "If you don't like the hand that fate's dealt you with, fight for a new one!"
+    "character": "Madara Uchiha",
+    "quote": "The longer you live… The more you realize that reality is just made of pain, suffering and emptiness."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Madara Uchiha",
+    "quote": "Love is not necessary, power is the only true necessity."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Madara Uchiha",
+    "quote": "When a man learns to love, he must bear the risk of hatred."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Madara Uchiha",
+    "quote": "Power is not will, it is the phenomenon of physically making things happen."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Madara Uchiha",
+    "quote": "I'd be lying if I said things are going according to my plan… but beggars can't be choosers, right?"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Madara Uchiha",
+    "quote": "In this world, wherever there is light - there are also shadows. As long as the concept of winners exists, there must also be losers. The selfish desire of wanting to maintain peace causes wars, and hatred is born to protect love."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Madara Uchiha",
+    "quote": "Man seeks peace, yet at the same time yearning for war… Those are the two realms belonging solely to man. Thinking of peace whilst spilling blood is something that only humans could do. They're two sides of the same coin… to protect something… another must be sacrificed."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Madara Uchiha",
+    "quote": "People cannot show each other their true feelings. Fear, suspicion, and resentment never subside."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Madara Uchiha",
+    "quote": "Wake up to reality! Nothing ever goes as planned in this world. The longer you live, the more you realize that in this reality only pain, suffering and futility exist."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Onoki",
+    "quote": "Never give up without even trying. Do what you can, no matter how small the effect it may have!"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Haku",
+    "quote": "It is only through the eyes of others that our lives have any meaning."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Haku",
+    "quote": "When people are protecting something truly precious to them. They truly can become…as strong as they need to be!"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Haku",
+    "quote": "Often people have it wrong, mistakenly believing… that showing mercy to an enemy is kindness. They spare the foe whose life is in their hands. But don't you see? It's an empty existence, to go on living… alone and unloved… when defeat's already cost you your dream!"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Jiraiya",
+    "quote": "Rejection is a part of any man's life. If you can't accept and move past rejection, or at least use it as writing material - you're not a real man."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Jiraiya",
+    "quote": "A person grows up when he's able to overcome hardships. Protection is important, but there are some things that a person must learn on his own."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Jiraiya",
+    "quote": "A place where someone still thinks about you is a place you can call home."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Jiraiya",
+    "quote": "You're wrong, that's not what makes a shinobi. You never did get it, a real ninja is one who endures no matter what gets thrown at him… Let me explain something to you, there is only one thing that matters if you are a shinobi, and it isn't the number of jutsu you possess. All you do need, is the guts to never give up."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Jiraiya",
+    "quote": "When people get hurt, they learn to hate… When people hurt others, they become hated and racked with guilt. But knowing that pain allows people to be kind. Pain allows people to grow… and how you grow is up to you."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Jiraiya",
+    "quote": "Even I can tell that hatred is spreading. I wanted to do something about it…but I don't know what. I believe… that someday the day will come when people truly understand one another!"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Orochimaru",
+    "quote": "Maybe, just maybe, there is no purpose in life… but if you linger a while longer in this world, you might discover something of value in it."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Orochimaru",
+    "quote": "It's human nature not to realize the true value of something, unless they lose it."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Orochimaru",
+    "quote": "Either people change or they die before they do. It's one or the other."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Orochimaru",
+    "quote": "Darkness. When everything that you know and love is taken away from you so harshly. All you can think about is anger, hatred and even revenge. And no one can save you."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Kimimaro",
+    "quote": "I've been wondering… There must be a purpose for people being born into this world. Why are we here? What does it mean? I've been thinking about it a lot lately. I realized that finding our purpose IS the meaning. That's why we're here. And the ones who find it… They're the only ones who are truly free."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Kimimaro",
+    "quote": "Humans… Do humans have a purpose when they are born? I have been wondering recently. Because they are born, do they have an important duty? The meaning of being born… For humans to find that answer… It is the one freedom God gave them."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Obito Uchiha",
+    "quote": "No one cared who I was until I put on a mask."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Obito Uchiha",
+    "quote": "Somewhere inside of me? Take a good look, there's nothing inside of me anymore! I don't feel pain, I don't feel anything! You need to let that guilt go Kakashi. This wind hole wasn't your doing… It was made by this evil, cruel world."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Obito Uchiha",
+    "quote": "The moment people come to know love, they run the risk of carrying hate."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Obito Uchiha",
+    "quote": "In the ninja world, those who don't follow the rules are trash. But, those who abandon their friends are even worse than trash."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Shino Aburame",
+    "quote": "Never underestimate your opponent, no matter how small they may seem."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Sakura Haruno",
+    "quote": "A smile is the easiest way out of a difficult situation."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Sakura Haruno",
+    "quote": "Every one of us must do what's in their power! If we're going to die anyway, then it's better to die fighting than to do nothing!"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Sakura Haruno",
+    "quote": "The things that are most important aren't written in books. You have to learn them by experiencing them yourself."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Sasuke Uchiha",
+    "quote": "If anyone else tries to ridicule the way I live, I'll slaughter everyone they ever cared about. And then maybe they'll understand what it's like to taste… a little of my hatred."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Sasuke Uchiha",
+    "quote": "My name is Sasuke Uchiha. I hate a lot of things, and I don't particularly like anything. What I have is not a dream, because I will make it a reality. I'm going to restore my clan, and kill a certain someone."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Sasuke Uchiha",
+    "quote": "I have long since closed my eyes… My only goal is in the darkness."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Sasuke Uchiha",
+    "quote": "Having too many bonds causes one to lose focus, weakening their strongest wish, their greatest desire."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "Even the strongest of opponents always has a weakness."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "Your comrades are there to make up for what you cannot do and to prevent you from ignoring things that you actually might have been able to do."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "Those who forgive themselves, and are able to accept their true nature… They are the strong ones!"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "The ones who aren't able to acknowledge their own selves are bound to fail."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "Now I feel that maybe knowing who I actually am is the key to reach perfection. Because that means knowing what I can and cannot do."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "Knowledge and awareness are vague, and perhaps better called illusions. Everyone lives within their own subjective interpretation."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "Growth occurs when one goes beyond one's limits. Realizing that is also part of training."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "The people of this clan are all the same. You focus on the trivial, and lose sight of what's most important. Change is impossible, in this fog of ignorance. How can we evolve when regulation is all we know?"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "People's lives don't end when they die. It ends when they lose faith."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "You and I are flesh and blood. I'm always going to be there for you, even if it's only as an obstacle for you to overcome. Even if you do hate me. That's what big brothers are for."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "We are humans, not fish. We don't know what kind of people we truly are until the moment before our deaths. As death comes to embrace you, you will realize what you are. That's what death is, don't you think?"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Itachi Uchiha",
+    "quote": "No single thing is perfect by itself. That's why we're born to attract other things to make up for what we lack. I think we start walking in the right direction only after we start getting our counterparts beside us."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Pain",
+    "quote": "Sometimes you must hurt in order to know, fall in order to grow, lose in order to gain because life's greatest lessons are learned through pain."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Pain",
+    "quote": "Even innocent foolish children will grow up in the face of pain, until their thoughts and beliefs are the same as their doubts."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Pain",
+    "quote": "Love is the reason why there is pain. When we lose someone precious to us, hate is born. Vengeance is the product of that hate and so death follows. But in death there is only more death. This will give rise to more pains. In this cursed world we live in, it is a cycle of hatred that will not cease. You and I seek the same thing that Jiraiya-sensei wanted. Let me ask you this: How will you confront this hatred in order to create peace?"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Pain",
+    "quote": "People are stupid. If I don't do this, there will be no peace. Eventually, time will pass and the pain will heal. Eventually, checkmate's power will weaken and people will begin fighting again. This time, they will use the weapon themselves and once more know true pain. And for the short time, peace will come again. It will give birth to short period of peace within this endless chain of hatred. That's my wish."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Pain",
+    "quote": "Just by living, people hurt others without even realizing it. So long as humanity exists, hate will also exist. There is no peace in this cursed world. War is just a crime paid for by the pain of the defeated."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Gaara",
+    "quote": "You have the same eyes as I do…the eyes, filled with hatred and death, that long for strength… Just like mine. Your eyes tell me how badly you wish to kill the one who put you through the hell called loneliness."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Gaara",
+    "quote": "Perhaps the companionship of an evil person is preferable to loneliness."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Gaara",
+    "quote": "Just because someone is important to you, it doesn't necessarily mean that, that person is good. Even if you knew that person was evil… People cannot win against their loneliness."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Gaara",
+    "quote": "People cannot win against their loneliness."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Gaara",
+    "quote": "Now there's something I understand a little better. Hate, sadness, even joy. To be able to share it with another person… Naruto Uzumaki. From fighting him I learned that. He knew pain like I did and then he taught me that you can change your path. I wish that one day I can be needed by someone. Not as a frightening weapon… But as the sand's Kazekage."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Gaara",
+    "quote": "In order to escape a road of solitude, one has to work hard, and forge a new path with their own power."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Gaara",
+    "quote": "We have walked through the darkness of this world, that's why we are able to see even a sliver of light."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Gaara",
+    "quote": "If love is just a word, then why does it hurt so much if you realize it isn't there?"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Gaara",
+    "quote": "Peace under an illusion is not true peace. It's only meaningful if the real world manages to accomplish it."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Nara Shikamaru",
+    "quote": "It's because we help out when they're in trouble that we can count on them to come running when we need it."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Nara Shikamaru",
+    "quote": "I could say I'm not sad, but I'd be lying. The problem is the world won't let me stay a kid forever, so I can't lie around crying about it either."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Nara Shikamaru",
+    "quote": "Laziness is the mother of all bad habits. But ultimately she is a mother and we should respect her."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Genma Shiranui",
+    "quote": "When captured birds grow wiser, they try to open the cage with their beaks. They don't give up, because they want to fly again."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Neji Hyuga",
+    "quote": "Sasuke's out there right now, heading toward Orochimaru. We can't allow such evil to take someone from our village… that is not our way."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Neji Hyuga",
+    "quote": "The difference between stupidity and genius, is that genius has its limits."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Neji Hyuga",
+    "quote": "Right now, Sasuke is in the darkness. The only one who can save him is you, Naruto."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Neji Hyuga",
+    "quote": "Fear. That is what we live with. And we live it everyday. Only in death are we free of it."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Rock Lee",
+    "quote": "A dropout will beat a genius through hard work."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Rock Lee",
+    "quote": "If you believe in your dreams, I will prove to you, that you can achieve your dreams just by working hard."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Rock Lee",
+    "quote": "My motto is to be stronger than yesterday, if I have to I'll be stronger than half a day ago, even a minute ago!"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Rock Lee",
+    "quote": "A genius, huh? What does that mean? “Genius”? So I was not born with a whole lot of natural talent, not gifted like Neji …but I work hard and I never give up! That is my gift, that is my ninja way!"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Rock Lee",
+    "quote": "A hero is not the one who never falls. He is the one that who gets up, again and again, never losing sight of his dreams."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Hinata Hyuga",
+    "quote": "I will never go back on my word, because that too is my ninja way!"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Hinata Hyuga",
+    "quote": "When I watch you, I feel strong, like I can do anything - that even I am worth something."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Hinata Hyuga",
+    "quote": "I used to always cry and give up… I made many wrong turns… But you… You helped me find the right path… I always chased after you… I wanted to catch up to you… I wanted to walk beside you all the time… I just wanted to be with you… You changed me! Your smile is what saved me! That is why I'm not afraid to die protecting you! Because… I love you."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Choji Akamichi",
+    "quote": "You can steal the very last bite of my very best food. You can mock me all you want. But if you insult my best friend, I will obliterate you."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Hatake Kakashi",
+    "quote": "Forget about revenge. The fate of those who seek revenge is grim. It's tragic, You will end up suffering and hurting yourself even more. Even if you do succeed in getting revenge, the only thing that remains is emptiness."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Hatake Kakashi",
+    "quote": "Some people want power and they get mad when they don't get it. They take their fury out on everyone else. You don't want it, it becomes you."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Hatake Kakashi",
+    "quote": "In society, those who don't have many abilities, tend to complain more."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Hatake Kakashi",
+    "quote": "If comrades that you trust gather around you, hope can take physical form and become visible. That`s what I believe."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Hatake Kakashi",
+    "quote": "I've been around longer than you have, kid. And I've seen my share of troubles. You're not the only one who knows what it's like to lose somebody. It looks like neither of us has led a charming life, have we? Still, it's not that bad. At least you and I have been lucky enough to find new comrades to help fill the void."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Hatake Kakashi",
+    "quote": "I really am… shinobi trash. But the one thing I still learned is this. That void is something that everyone helps you fill. Just because you face adversity and hardships, is no reason to give up on this world. A person willing to throw away all those memories… of their friends and comrades, will never find peace of mind. Resorting to something like that isn't going to bury that hole. If you persevere and endure, someone will be there to support you!"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Hatake Kakashi",
+    "quote": "The hole in one's heart gets filled by others around you. Friends won't flock to someone who abandons the memory of his friends and gives up on the world just because things don't go the way he wants them to. That won't help fill the hole in your heart. And people won't help those who run away and do nothing. As long as you don't give up, there will always be salvation."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Hatake Kakashi",
+    "quote": "The people from this village are different from your average village. Even if it means dying, there's not a single one of us, who would sell out a comrade."
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Sai",
+    "quote": "A smile is the best way to get oneself out of a tight spot, even if it is a fake one. Surprisingly enough, everyone takes it at face value"
+  },
+  {
+    "_id": "635183a66e286b22d5bcb6cf",
+    "anime": "Naruto",
+    "character": "Tsunade",
+    "quote": "People become stronger because they have things they cannot forget. That's what you call growth."
   },
   {
     "_id": "635183a66e286b22d5bcb6cf",
     "anime": "Naruto",
     "character": "Naruto Uzumaki",
-    "quote": "The pain of being alone is completely out of this world, isn't it? I don't know why, but I understand your feelings so much, it actually hurts."
+    "quote": "Give up on me giving up"
   }
 ]
