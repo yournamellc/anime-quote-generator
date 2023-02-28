@@ -52,7 +52,7 @@ img {
     vertical-align: middle;
 }
 
-.akatsuki , #naruto-button, #titan-button{
+.akatsuki , #naruto-button, #titan-button, #home-button{
     display: block;
     position: relative;
     margin-left: auto;
@@ -61,7 +61,7 @@ img {
 }
 
 
-#naruto-button:active , #titan-button:active {
+#naruto-button:active , #titan-button:active, #home-button:active {
     filter: drop-shadow(5px 6px 2px rgb(36, 36, 36));
     top: 6px;
 }

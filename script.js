@@ -1,3 +1,26 @@
+var prevIndex = -1;
+
+function quoteGenerator(response) {
+	// Get the number of quotes in the JSON object
+	var numQuotes = response.length;
+
+	// Generate a random index between 0 and numQuotes - 1, but not the same as prevIndex
+	var randomIndex;
+	do {
+		randomIndex = Math.floor(Math.random() * numQuotes);
+	} while (randomIndex === prevIndex);
+	console.log("prevIndex:", prevIndex);
+
+	prevIndex = randomIndex;
+
+	// Retrieve the quote and character at the random index
+	var quote = response[randomIndex].quote;
+	var character = response[randomIndex].character;
+
+	// Return an object with the quote and character
+	return { quote: quote, character: character };
+}
+
 // ----------------GLOBAL QUOTE & CHARACTER FUNCTIONS----------------------------------
 
 // let currentQuote = null;
@@ -11,22 +34,47 @@
 // 	return newQuote;
 // };
 
-var prevIndex = -1;
-function quoteGenerator(response) {
-    // Get the number of quotes in the JSON object    
-	var numQuotes = response.length;
-    // Generate a random index between 0 and numQuotes - 1, but not the same as prevIndex    
-	var randomIndex;
-    do {
-        randomIndex = Math.floor(Math.random() * numQuotes);
-    } while (randomIndex === prevIndex);
-	console.log(prevIndex)
-    prevIndex = randomIndex;
-    // Retrieve the quote and character at the random index    
-	var quote = response[randomIndex].quote;
-    var character = response[randomIndex].character;
-    // Return an object with the quote and character    
-	return { quote: quote, character: character };
+// var prevIndex = -1;
+// function quoteGenerator(response) {
+//     // Get the number of quotes in the JSON object    
+// 	var numQuotes = response.length;
+//     // Generate a random index between 0 and numQuotes - 1, but not the same as prevIndex    
+// 	var randomIndex;
+//     do {
+//         randomIndex = Math.floor(Math.random() * numQuotes);
+//     } while (randomIndex === prevIndex);
+// 	console.log(prevIndex)
+//     prevIndex = randomIndex;
+//     // Retrieve the quote and character at the random index    
+// 	var quote = response[randomIndex].quote;
+//     var character = response[randomIndex].character;
+//     // Return an object with the quote and character    
+// 	return { quote: quote, character: character };
+// }
+
+// ************* HOME *************
+const home = document.querySelector("#home-button");
+const jsonFiles = [
+	"json/ghoul.json",
+	"json/jujutsu.json",
+	"json/naruto.json",
+	"json/ryuk.json",
+	"json/titan.json",
+];
+
+if (home) {
+	home.addEventListener("click", async function () {
+		try {
+			const randomFileIndex = Math.floor(Math.random() * jsonFiles.length);
+			const response = await fetch(jsonFiles[randomFileIndex]);
+			const data = await response.json();
+			const { quote, character } = quoteGenerator(data);
+			document.getElementById("character").innerHTML = character;
+			document.getElementById("quote").innerHTML = quote;
+		} catch (error) {
+			console.error(error);
+		}
+	});
 }
 
 // ************************** naruto **************************
@@ -53,7 +101,7 @@ const titanButton = document.querySelector("#titan-button");
 if (titanButton) {
     titanButton.addEventListener("click", async function () {
         try {
-            const response = await fetch("json/ghoul.json");
+            const response = await fetch("json/titan.json");
             const data = await response.json();
             const { quote, character } = quoteGenerator(data);
             // document.getElementById("character").innerHTML = character;
@@ -65,21 +113,20 @@ if (titanButton) {
 }
 
 // ------------------TOKYO GHOUL QUOTE FUNCTION------------------------
-
 const kaneki = document.querySelector("#kaneki-button");
 
 if (kaneki) {
-    kaneki.addEventListener("click", async function () {
-        try {
-            const response = await fetch("json/ghoul.json");
-            const data = await response.json();
-            const { quote, character } = quoteGenerator(data);
-            document.getElementById("character").innerHTML = character;
-            document.getElementById("quote").innerHTML = quote;
-        } catch (error) {
-            console.error(error);
-        }
-    });
+	kaneki.addEventListener("click", async function () {
+		try {
+			const response = await fetch("json/ghoul.json");
+			const data = await response.json();
+			const { quote, character } = quoteGenerator(data);
+			document.getElementById("character").innerHTML = character;
+			document.getElementById("quote").innerHTML = quote;
+		} catch (error) {
+			console.error(error);
+		}
+	});
 }
 
 // ------------------DEATH NOTE QUOTE FUNCTION--------------------
