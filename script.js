@@ -69,7 +69,7 @@ if (home) {
 			const response = await fetch(jsonFiles[randomFileIndex]);
 			const data = await response.json();
 			const { quote, character } = quoteGenerator(data);
-			document.getElementById("character").innerHTML = character;
+			document.getElementById("character").innerHTML = "- " + character;
 			document.getElementById("quote").innerHTML = quote;
 		} catch (error) {
 			console.error(error);
@@ -83,10 +83,10 @@ const button = document.querySelector("#naruto-button");
 if (button) {
     button.addEventListener("click", async function () {
         try {
-            const response = await fetch("json/ghoul.json");
+            const response = await fetch("json/naruto.json");
             const data = await response.json();
             const { quote, character } = quoteGenerator(data);
-            // document.getElementById("character").innerHTML = character;
+            document.getElementById("character").innerHTML = "- " + character;
             document.getElementById("quote").innerHTML = quote;
         } catch (error) {
             console.error(error);
@@ -104,7 +104,7 @@ if (titanButton) {
             const response = await fetch("json/titan.json");
             const data = await response.json();
             const { quote, character } = quoteGenerator(data);
-            // document.getElementById("character").innerHTML = character;
+            document.getElementById("character").innerHTML = "- " + character;
             document.getElementById("quote").innerHTML = quote;
         } catch (error) {
             console.error(error);
@@ -121,7 +121,7 @@ if (kaneki) {
 			const response = await fetch("json/ghoul.json");
 			const data = await response.json();
 			const { quote, character } = quoteGenerator(data);
-			document.getElementById("character").innerHTML = character;
+			document.getElementById("character").innerHTML = "- " + character;
 			document.getElementById("quote").innerHTML = quote;
 		} catch (error) {
 			console.error(error);
@@ -138,7 +138,7 @@ if (ryuk) {
             const response = await fetch("json/ryuk.json");
             const data = await response.json();
             const { quote, character } = quoteGenerator(data);
-            document.getElementById("character").innerHTML = character;
+            document.getElementById("character").innerHTML = "- " + character;
             document.getElementById("quote").innerHTML = quote;
         } catch (error) {
             console.error(error);
@@ -155,7 +155,7 @@ if (jujutsu) {
             const response = await fetch("json/jujutsu.json");
             const data = await response.json();
             const { quote, character } = quoteGenerator(data);
-            document.getElementById("character").innerHTML = character;
+            document.getElementById("character").innerHTML = "- " + character;
             document.getElementById("quote").innerHTML = quote;
         } catch (error) {
             console.error(error);
