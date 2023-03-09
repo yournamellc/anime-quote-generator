@@ -9,16 +9,17 @@ function quoteGenerator(response) {
 	do {
 		randomIndex = Math.floor(Math.random() * numQuotes);
 	} while (randomIndex === prevIndex);
-	console.log("prevIndex:", prevIndex);
+	// console.log("prevIndex:", prevIndex);
 
 	prevIndex = randomIndex;
 
 	// Retrieve the quote and character at the random index
 	var quote = response[randomIndex].quote;
 	var character = response[randomIndex].character;
+	var anime = response[randomIndex].anime;
 
 	// Return an object with the quote and character
-	return { quote: quote, character: character };
+	return { quote: quote, character: character, anime: anime };
 }
 
 // ----------------GLOBAL QUOTE & CHARACTER FUNCTIONS----------------------------------
@@ -68,9 +69,11 @@ if (home) {
 			const randomFileIndex = Math.floor(Math.random() * jsonFiles.length);
 			const response = await fetch(jsonFiles[randomFileIndex]);
 			const data = await response.json();
-			const { quote, character } = quoteGenerator(data);
+			const { quote, character, anime } = quoteGenerator(data);
 			document.getElementById("character").innerHTML = "- " + character;
 			document.getElementById("quote").innerHTML = quote;
+			document.getElementById("anime").innerHTML = "(" + anime + ")";
+			console.log("anime");
 		} catch (error) {
 			console.error(error);
 		}
