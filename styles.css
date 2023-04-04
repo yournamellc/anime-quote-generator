@@ -321,70 +321,61 @@ button {
     width: 700px
 }
 
-/* ****************************************************AOT CSS**************************************************** */
+/* ****************************************************NARUTO CSS**************************************************** */
 
-@font-face {
-    font-family: aot;
-    src: url(./attack-on-titan/CloisterBlack.ttf);
-}
-
-.titan-button, #titan-button {
-    font-family: aot;
-    font-size: 5rem;
-    background-size: cover;
-    background-clip: text;
-    background-position: center;
-    -webkit-background-clip: text;
-    -webkit-text-stroke: 3px rgb(0, 0, 0);
-    color: transparent;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-5%);
-    filter: drop-shadow(10px 10px 2px rgb(36, 36, 36));
-}
-
-#titan-button:active {
-    filter: drop-shadow(5px 6px 4px rgb(36, 36, 36));
-    top: 60.5%;
-}
-
-.titan-background {
-    background-image: url(./content/aot.jpg);   
+.naruto-background {
+    background-image: url(./content/naruto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    image-rendering:optimizeQuality;
+    filter: invert(1);
+
 }
 
-p.titan-quote {
+.naruto-button, #naruto-button {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-5%);
+    filter: invert(1) drop-shadow(10px 10px 2px rgba(255, 255, 255, 0.6));
+}
+
+#naruto-button:active {
+    filter: invert(1) drop-shadow(5px 6px 2px rgba(255, 255, 255, 0.6));
+    top: 66%;
+}
+
+.naruto-quote {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 500px;
+    /* height: 200px; */
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.naruto-character {
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
     text-align: center;
     position: absolute;
-    word-wrap: break-word;
-    top: 45%;
+    top: 52%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    width: 800px
 }
-
-p.titan-character {
-    color: rgb(255, 255, 255);
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    position: absolute;
-    word-wrap: break-word;
-    top: 55%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    width: 800px
-}
-
 
 /* ****************************************************JUJUTSU KAISEN CSS**************************************************** */
 
@@ -450,60 +441,68 @@ p.titan-character {
     width: 800px
 }
 
-/* ****************************************************NARUTO CSS**************************************************** */
+/* ****************************************************AOT CSS**************************************************** */
 
-.naruto-background {
-    background-image: url(./content/naruto.jpg);
+@font-face {
+    font-family: aot;
+    src: url(./attack-on-titan/CloisterBlack.ttf);
+}
+
+.titan-button, #titan-button {
+    font-family: aot;
+    font-size: 5rem;
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
+    color: transparent;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-5%);
+    filter: drop-shadow(10px 10px 2px rgb(36, 36, 36));
+}
+
+#titan-button:active {
+    filter: drop-shadow(5px 6px 4px rgb(36, 36, 36));
+    top: 60.5%;
+}
+
+.titan-background {
+    background-image: url(./content/aot.jpg);   
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    image-rendering:optimizeQuality;
-    filter: invert(1);
-
 }
 
-.naruto-button, #naruto-button {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-5%);
-    filter: invert(1) drop-shadow(10px 10px 2px rgba(255, 255, 255, 0.6));
-}
-
-#naruto-button:active {
-    filter: invert(1) drop-shadow(5px 6px 2px rgba(255, 255, 255, 0.6));
-    top: 66%;
-}
-
-.naruto-quote {
-    color: rgb(255, 255, 255);
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    width: 500px;
-    /* height: 200px; */
-    transform: translateX(-50%) translateY(-50%);
-}
-
-.naruto-character {
+p.titan-quote {
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
     text-align: center;
     position: absolute;
-    top: 52%;
+    word-wrap: break-word;
+    top: 45%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    width: 800px
+}
+
+p.titan-character {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    word-wrap: break-word;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 800px
 }
 
 /* ****************************************************MEDIA QUERIES**************************************************** */
@@ -559,13 +558,9 @@ p.titan-character {
 
     .fuji {
         background-image: url(./content/fuji.jpeg);
-        background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
-        width: auto;
-        align-items: center;
-        filter: invert(1);
-        position: inherit;
+        image-rendering:optimizeQuality;
+        background-position: bottom;
     }
 
     .home-quote {
@@ -577,7 +572,7 @@ p.titan-character {
         position: absolute;
         top: 45%;
         left: 50%;
-        width: 325px;
+        width: 450px;
         transform: translateX(-50%) translateY(-50%);
     }
     
@@ -632,11 +627,10 @@ p.titan-character {
 
     .background-image {
         background-image: url(./content/kaneki.png);
-        background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
-        -webkit-filter: invert(1);
+        image-rendering:optimizeQuality;
         filter: invert(1);
+        background-position: bottom;
     }
 
     .ghoul-button, #kaneki-button {
@@ -689,7 +683,7 @@ p.titan-character {
         top: 35%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
-        width: 300px;
+        width: 450px;
     }
 
     /* ****************************************************MEDIA Q DEATH NOTE CSS**************************************************** */
@@ -708,7 +702,7 @@ p.titan-character {
 
     .ryuk-button, #deathnote-button {
         font-family: death-note;
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: #fff;
         background-size: cover;
         background-clip: text;
@@ -730,20 +724,20 @@ p.titan-character {
 
     .ryuk-character {
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: bold;
         margin: 0;
         padding: 0;
         text-align: center;
         position: absolute;
-        top: 70%;
+        top: 60%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
 
     .ryuk-quote {
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: bold;
         margin: 0;
         padding: 0;
@@ -756,10 +750,10 @@ p.titan-character {
         width: 450px
     }
 
-/* ****************************************************NARUTO CSS**************************************************** */
+ /* ****************************************************MEDIA Q NARUTO CSS**************************************************** */
 
     .naruto-background {
-        background-image: url(./content/naruto.jpg);
+    background-image: url(./content/naruto.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
@@ -786,15 +780,14 @@ p.titan-character {
 
     .naruto-quote {
         color: rgb(255, 255, 255);
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-align: center;
         font-weight: bold;
-        font-size: 1.5rem;
         margin: 0;
         padding: 0;
         text-align: center;
         position: absolute;
-        top: 35%;
+        top: 45%;
         left: 50%;
         width: 450px;
         /* height: 200px; */
@@ -803,13 +796,113 @@ p.titan-character {
 
     .naruto-character {
         color: rgb(255, 255, 255);
+        font-size: 1rem;
         margin: 0;
         padding: 0;
         text-align: center;
         position: absolute;
-        top: 62%;
+        top: 60%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
+
+    /* ****************************************************MEDIA Q JUJUTSU KAISEN CSS**************************************************** */
+
+@font-face {
+    font-family: jujutsu;
+    src:url(jujutsu-kaisen-font/Jujutsu-Kaisen.ttf)
+}
+
+
+.jujutsu-button, #kaisen-button {
+    font-family: jujutsu;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-5%);
+    filter: invert(1) drop-shadow(10px 10px 2px rgb(36, 36, 36));
+}
+
+#kaisen-button:active {
+    filter: invert(1) drop-shadow(5px 6px 4px rgb(36, 36, 36));
+    top: 65.5%;
+}
+
+.jujutsu-character {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.jujutsu-quote {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    word-wrap: break-word;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 450px
+}
+
+.jujutsu-background {
+    background-image: url(./content/gojo.png);
+    background-repeat: no-repeat;
+    image-rendering:optimizeQuality;
+    filter: invert(1);
+    background-position: bottom;
+}
+
+    /* ****************************************************MEDIA Q AOT CSS**************************************************** */
+
+.titan-background {
+    background-image: url(./content/aot.jpg);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+p.titan-quote {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    word-wrap: break-word;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 450px
+}
+
+p.titan-character {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    word-wrap: break-word;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 1rem;
+}
 
 }
