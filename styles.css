@@ -28,6 +28,7 @@ body {
 .item {
 padding: 1rem;
 width: 50%;
+overflow: none;
 }
 
 p {
@@ -35,6 +36,7 @@ p {
     font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
+    overflow: none;
 }
 
 
@@ -144,11 +146,6 @@ button {
 
 /* MENU */
 
-.group:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 #mainnav {
     color: #fff;
@@ -156,17 +153,22 @@ button {
     text-transform: uppercase;
     letter-spacing: .05em;
     margin-top: 1em;
+    backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        /* For Safari and older versions of Edge */
+        background-color: rgba(0, 0, 0, 0.5);
+        /* For browsers that don't support backdrop-filter */
+    
 }
 
 #mainnav #menu {
-    display: none;
     padding: .8em 1.5em;
     cursor: pointer;
+    
 }
 
-
 #mainnav ul {
-    display: block;
+    display: none;
     margin: 0;
     text-align: center;
 }
@@ -174,13 +176,13 @@ button {
 #mainnav ul li {
     margin: 0;
     list-style: none;
-    display: inline-block;
+    display: block;
 }
 
 #mainnav ul li a {
     color: #fff;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     padding: .9em 1.5em .8em 1.5em;
 }
 
@@ -189,8 +191,14 @@ button {
     border-radius: 5px;
 }
 
-.content {
-    padding: 1.5em;
+@media only screen and (min-width: 768px) {
+    #mainnav ul {
+        display: block;
+    }
+
+    #mainnav ul li {
+        display: inline-block;
+    }
 }
 
 /* ****************************************************TOKYO GHOUL CSS**************************************************** */
@@ -605,7 +613,6 @@ button {
     #mainnav #menu {
         display: block;
         color: #fff;
-        margin-left: -50;
     }
 
     #mainnav ul {
@@ -1005,28 +1012,6 @@ p.titan-character {
         transform: translateX(-50%) translateY(-50%);
     }
     
-
-    #mainnav #menu {
-        display: block;
-    }
-
-    #mainnav ul {
-        display: none;
-        background: #666;
-        padding: 1em;
-        text-align: left;
-    }
-
-    #mainnav ul li {
-        display: block;
-        width: 350px;
-        height: 10px;
-    }
-
-    #mainnav ul li a {
-        display: block;
-        padding: .75em 1.5em .5em 1.5em;
-    }
 
     /* ****************************************************MEDIA Q TOKYO GHOUL CSS**************************************************** */
 
