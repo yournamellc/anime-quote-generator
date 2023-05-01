@@ -826,7 +826,8 @@ button {
  /* ****************************************************MEDIA Q NARUTO CSS**************************************************** */
 
     .naruto-background {
-    background-image: url(./content/naruto.jpg);
+        background-image: none;
+        background-color: rgb(254, 149, 56);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
@@ -949,6 +950,7 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    background-position: bottom;
 }
 
 .titan-quote {
@@ -959,7 +961,7 @@ button {
     text-align: center;
     position: absolute;
     word-wrap: break-word;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 350px
@@ -972,11 +974,35 @@ button {
     text-align: center;
     position: absolute;
     word-wrap: break-word;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     font-size: 1rem;
     width: 350px;
+}
+
+.titan-button, #titan-button {
+    font-family: aot;
+    font-size: 5rem;
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
+    color: transparent;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-5%);
+    filter: drop-shadow(10px 10px 2px rgb(36, 36, 36));
+}
+
+#titan-button:active {
+    filter: drop-shadow(5px 6px 4px rgb(36, 36, 36));
+    top: 55.5%;
 }
 
 }
