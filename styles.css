@@ -182,6 +182,7 @@ button {
         --gap: clamp(1.5rem, 5vw, 3rem);
         padding-block: 2rem;
         padding-inline: clamp(3rem, 5vw, 10rem);
+        
     }
 }
 
@@ -205,7 +206,7 @@ button {
 /* ****************************************************TOKYO GHOUL CSS**************************************************** */
 
 .background-image {
-    background-image: url(./content/kaneki.png);
+    background-image: url(./content/ken.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -228,7 +229,7 @@ button {
     padding: 0;
     text-align: center;
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translateX(-50%) translateY(-5%);
     filter: invert(1) drop-shadow(10px 10px 2px rgb(36, 36, 36));
@@ -236,7 +237,7 @@ button {
 
 #kaneki-button:active {
     filter: invert(1) drop-shadow(5px 6px 4px rgb(36, 36, 36));
-    top: 60.5%;
+    top: 70.5%;
 }
 
 .p-character {
@@ -247,7 +248,7 @@ button {
     padding: 0;
     text-align: center;
     position: absolute;
-    top: 48%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
@@ -260,7 +261,7 @@ button {
     padding: 0;
     text-align: center;
     position: absolute;
-    top: 35%;
+    top: 45%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 700px;
@@ -310,7 +311,7 @@ button {
     padding: 0;
     text-align: center;
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 30%;
     transform: translateX(-50%) translateY(-50%);
 }
@@ -339,13 +340,14 @@ button {
 /* ****************************************************NARUTO CSS**************************************************** */
 
 .naruto-background {
-    background-image: url(./content/naruto.jpg);
+    background-image: url(./content/uzumaki.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     image-rendering:optimizeQuality;
     filter: invert(1);
-
+    /* -webkit-transform: scaleX(-1); */
+    /* transform: scaleX(-1); */
 }
 
 .naruto-button, #naruto-button {
@@ -679,16 +681,18 @@ button {
 
     .menu-btn.open .menu-btn_burger::before {
         transform: rotate(45deg) translate(35px, -35px);
+        filter: invert(1);
     }
 
     .menu-btn.open .menu-btn_burger::after {
         transform: rotate(-45deg) translate(35px, 35px);
+        filter: invert(1);
     }
 
     /* ****************************************************MEDIA Q TOKYO GHOUL CSS**************************************************** */
 
     .background-image {
-        background-image: url(./content/kaneki.png);
+        background-image: url(./content/ken.png);
         background-repeat: no-repeat;
         image-rendering:optimizeQuality;
         filter: invert(1);
@@ -856,7 +860,7 @@ button {
         padding: 0;
         text-align: center;
         position: absolute;
-        top: 45%;
+        top: 55%;
         left: 50%;
         width: 450px;
         /* height: 200px; */
@@ -870,7 +874,7 @@ button {
         padding: 0;
         text-align: center;
         position: absolute;
-        top: 60%;
+        top: 70%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
     }

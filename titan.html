@@ -4,23 +4,45 @@
     <head>
         <link href="styles.css" rel="stylesheet" type="text/css" />
         <title>Anime Quote Generator</title>
-        <link rel="" href="Naruto.json">
-        <link rel="stylesheet" href="naruto-character.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fira+Code:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-        <script>
-            $(function () {
-                $("#menu").load("menu.html");
-            });
-        </script>
+        <script src="script.js" defer></script>
     </head>
-
+    <!-- ********************** MENU **************************** -->
+    <header class="primary-header flex">
+        <div class="menu-btn">
+            <div id="primary-navigation" class="menu-btn_burger">
+            </div>
+        </div>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li class="active">
+                    <a href="/index.html">
+                        <span aria-hidden="true"></span>Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/ghoul.html">
+                        <span aria-hidden="true"></span>Tokyo Ghoul
+                    </a>
+                </li>
+                <li>
+                    <a href="/ryuk.html">
+                        <span aria-hidden="true"></span>Death Note
+                    </a>
+                </li>
+                <li>
+                    <a href="/Naruto.html">
+                        <span aria-hidden="true"></span>Naruto
+                    </a>
+                </li>
+                <li>
+                    <a href="/jujutsu.html">
+                        <span aria-hidden="true"></span>Jujutsu Kaisen
+                    </a>
+                </li>
+        </nav>
+    </header>
+<!-- ********************** MENU **************************** -->
     <body class="titan-background">
-        <div id="menu"></div>
         <div>
             <button id="titan-button" class="titan-button" >
                 <img src="./content/Attack-on-Titan-Logo.png" />
@@ -33,7 +55,6 @@
                 <p class="titan-character" id="character"></p>
             </div>
         </div>
-        <script src="script.js"></script>
     </body>
 
 </html>

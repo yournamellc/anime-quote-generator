@@ -5,53 +5,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles.css" rel="stylesheet" type="text/css" />
         <title>Anime Quote Generator</title>
-        <!-- <script src="https://code.jquery.com/jquery-3.5.0.js"></script> -->
-        <!-- <script src="nav.js" defer></script> -->
-        <!-- <script src="https://code.jquery.com/jquery-3.5.0.js"></script> -->
+        <script src="script.js" defer></script>
     </head>
-
-    <body class="fuji">
-        <header class="primary-header flex">
-            <div class="menu-btn">
-                    <div class="menu-btn_burger">
-                    </div>
-                </button>
+    <!-- ********************** MENU **************************** -->
+    <header class="primary-header flex">
+        <div class="menu-btn">
+            <div id="primary-navigation" class="menu-btn_burger">
             </div>
-            <nav>
-                <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
-                    <li class="active">
-                        <a href="/index.html">
-                            <span aria-hidden="true"></span>Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/ghoul.html">
-                            <span aria-hidden="true"></span>Tokyo Ghoul
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/ryuk.html">
-                            <span aria-hidden="true"></span>Death Note
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Naruto.html">
-                            <span aria-hidden="true"></span>Naruto
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/jujutsu.html">
-                            <span aria-hidden="true"></span>Jujutsu Kaisen
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/titan.html">
-                            <span aria-hidden="true"></span>Attack on Titan
-                        </a>
-                    </li>
-            </nav>
-        </header>
-     
+        </div>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li>
+                    <a href="/ghoul.html">
+                        <span aria-hidden="true"></span>Tokyo Ghoul
+                    </a>
+                </li>
+                <li>
+                    <a href="/ryuk.html">
+                        <span aria-hidden="true"></span>Death Note
+                    </a>
+                </li>
+                <li>
+                    <a href="/Naruto.html">
+                        <span aria-hidden="true"></span>Naruto
+                    </a>
+                </li>
+                <li>
+                    <a href="/jujutsu.html">
+                        <span aria-hidden="true"></span>Jujutsu Kaisen
+                    </a>
+                </li>
+                <li>
+                    <a href="/titan.html">
+                        <span aria-hidden="true"></span>Attack on Titan
+                    </a>
+                </li>
+        </nav>
+    </header>
+<!-- ********************** MENU **************************** -->
+    <body class="fuji">
         <div id="menu" class="primary-header flex"></div>
         <h1>ANIME QUOTE GENERATOR</h1>
         <h3>Konnichiwa! Get a random quote from any anime listed <br>
@@ -69,6 +61,5 @@
         <p class="home-anime" id="anime"></p>
     </div>
 </div>
-<script src="script.js" defer></script>
 </body>
 </html>
