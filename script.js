@@ -14,7 +14,7 @@ navToggle.addEventListener('click', () => {
     }
 });
 
-const menuBtn = document.querySelector('.menu-btn')
+const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
 	if(!menuOpen){
@@ -211,4 +211,4 @@ $(document).ready(function () {
 	});
 });
 
-
+$(function () { $("#menu").load("menu.html"); });

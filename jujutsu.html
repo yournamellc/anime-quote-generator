@@ -5,15 +5,45 @@
         <link href="styles.css" rel="stylesheet" type="text/css" />
         <title>Anime Quote Generator</title>
         <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-        <script>
-            $(function () {
-                $("#menu").load("menu.html");
-            });
-        </script>
+        <script src="script.js" defer></script>
     </head>
-
+    <!-- ********************** MENU **************************** -->
+    <header class="primary-header flex">
+        <div class="menu-btn">
+            <div id="primary-navigation" class="menu-btn_burger">
+            </div>
+        </div>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li class="active">
+                    <a href="/index.html">
+                        <span aria-hidden="true"></span>Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/ghoul.html">
+                        <span aria-hidden="true"></span>Tokyo Ghoul
+                    </a>
+                </li>
+                <li>
+                    <a href="/ryuk.html">
+                        <span aria-hidden="true"></span>Death Note
+                    </a>
+                </li>
+                <li>
+                    <a href="/Naruto.html">
+                        <span aria-hidden="true"></span>Naruto
+                    </a>
+                </li>
+                <li>
+                    <a href="/titan.html">
+                        <span aria-hidden="true"></span>Attack on Titan
+                    </a>
+                </li>
+        </nav>
+    </header>
+<!-- ********************** MENU **************************** -->
     <body class="jujutsu-background">
-        <div id="menu"></div>
         <div class="jujutsu-character" id="character">
             <p></p>
         </div>
@@ -24,8 +54,6 @@
             <button id="kaisen-button" class="jujutsu-button">
                 GET QUOTE
             </button>
-
-        <script src="script.js"></script>
 
     </body>
 

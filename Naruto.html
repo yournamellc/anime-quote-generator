@@ -5,17 +5,52 @@
         <link href="styles.css" rel="stylesheet" type="text/css" />
         <title>Anime Quote Generator</title>
         <link rel="" href="Naruto.json">
-        <link rel="stylesheet" href="naruto-character.css">
-        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-        <script>
-            $(function () {
-                $("#menu").load("menu.html");
-            });
-        </script>
+        <link rel="stylesheet" href="chibi.css">
+        <script src="script.js" defer></script>
     </head>
-
+    <!-- ********************** MENU **************************** -->
+    <header class="primary-header flex">
+        <div class="menu-btn">
+            <div id="primary-navigation" class="menu-btn_burger">
+            </div>
+        </div>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li class="active">
+                    <a href="/index.html">
+                        <span aria-hidden="true"></span>Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/ghoul.html">
+                        <span aria-hidden="true"></span>Tokyo Ghoul
+                    </a>
+                </li>
+                <li>
+                    <a href="/ryuk.html">
+                        <span aria-hidden="true"></span>Death Note
+                    </a>
+                </li>
+                <li>
+                    <a href="/jujutsu.html">
+                        <span aria-hidden="true"></span>Jujutsu Kaisen
+                    </a>
+                </li>
+                <li>
+                    <a href="/titan.html">
+                        <span aria-hidden="true"></span>Attack on Titan
+                    </a>
+                </li>
+        </nav>
+    </header>
+<!-- ********************** MENU **************************** -->
     <body class="naruto-background">
-        <div id="menu"></div>
+        <div class="invert" id="naruto">
+            <section class="head"></section>
+            <section class="torso"></section>
+            <section class="legs"></section>
+            <section class="shadow"></section>
+        </div>
         <div>
             <button id="naruto-button">
                 <img src="./content/Akatsuki-Logo.png" />
@@ -25,19 +60,6 @@
                 <p class="naruto-quote item" id="quote"></p>
                 <p class="naruto-character item" id="character"></p>
             </div>
-            <!-- <div class="item">
-            </div> -->
-
-
-            <!-- <div class="item" id="naruto">
-                <section class="head"></section>
-                <section class="torso"></section>
-                <section class="legs"></section>
-                <section class="shadow"></section>
-            </div>
-        </div> -->
-
-        <script src="script.js"></script>
     </body>
 
 </html>
