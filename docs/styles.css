@@ -585,9 +585,9 @@ button {
         font-weight: bold;
         text-align: center;
         position: absolute;
-        top: 45%;
+        top: 40%;
         left: 50%;
-        width: 275px;
+        width: 270px;
         transform: translateX(-50%) translateY(-50%);
     }
     
@@ -733,7 +733,7 @@ button {
         padding: 0;
         text-align: center;
         position: absolute;
-        top: 50%;
+        top: 52.5%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
@@ -813,7 +813,7 @@ button {
         top: 45%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
-        width: 450px
+        width: 350px
     }
 
     .deathnote-title {
@@ -841,7 +841,7 @@ button {
         padding: 0;
         text-align: center;
         position: absolute;
-        top: 80%;
+        top: 82.5%;
         left: 50%;
         transform: translateX(-50%) translateY(-5%);
         filter: invert(1) drop-shadow(10px 10px 2px rgba(255, 255, 255, 0.6));
@@ -875,7 +875,7 @@ button {
         padding: 0;
         text-align: center;
         position: absolute;
-        top: 75%;
+        top: 77%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
     }
@@ -974,7 +974,7 @@ button {
     text-align: center;
     position: absolute;
     word-wrap: break-word;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     font-size: 1rem;
@@ -994,7 +994,7 @@ button {
     padding: 0;
     text-align: center;
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%) translateY(-5%);
     filter: drop-shadow(10px 10px 2px rgb(36, 36, 36));
@@ -1002,7 +1002,7 @@ button {
 
 #titan-button:active {
     filter: drop-shadow(5px 6px 4px rgb(36, 36, 36));
-    top: 55.5%;
+    top: 60.5%;
 }
 
 }
