@@ -749,7 +749,7 @@ button {
         top: 35%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
-        width: 450px;
+        width: 350px;
     }
 
     /* ****************************************************MEDIA Q DEATH NOTE CSS**************************************************** */
@@ -863,7 +863,7 @@ button {
         position: absolute;
         top: 55%;
         left: 50%;
-        width: 450px;
+        width: 350px;
         /* height: 200px; */
         transform: translateX(-50%) translateY(-50%);
     }
@@ -896,7 +896,7 @@ button {
     padding: 0;
     text-align: center;
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 50%;
     transform: translateX(-50%) translateY(-5%);
     filter: invert(1) drop-shadow(10px 10px 2px rgb(36, 36, 36));
@@ -904,7 +904,7 @@ button {
 
 #kaisen-button:active {
     filter: invert(1) drop-shadow(5px 6px 4px rgb(36, 36, 36));
-    top: 65.5%;
+    top: 70.5%;
 }
 
 .jujutsu-character {
@@ -932,7 +932,7 @@ button {
     top: 30%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    width: 450px
+    width: 350px
 }
 
 .jujutsu-background {
