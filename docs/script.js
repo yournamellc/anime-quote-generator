@@ -197,18 +197,18 @@ if (jujutsu) {
 
 // ANY API FUNCTION BELOW THIS NAV FUNCTION WONT WORK FOR SOME REASON SO KEEP THIS AT THE BOTTOM
 
-$(document).ready(function () {
-	// JQUERY NAV TOGGLE
-	$("#menu").bind("click", function (event) {
-		$("#mainnav ul").slideToggle();
-	});
+// $(document).ready(function () {
+// 	// JQUERY NAV TOGGLE
+// 	$("#menu").bind("click", function (event) {
+// 		$("#mainnav ul").slideToggle();
+// 	});
 
-	$(window).resize(function () {
-		var w = $(window).width();
-		if (w > 768) {
-			$("#mainnav ul").removeAttr("style");
-		}
-	});
-});
+// 	$(window).resize(function () {
+// 		var w = $(window).width();
+// 		if (w > 768) {
+// 			$("#mainnav ul").removeAttr("style");
+// 		}
+// 	});
+// });
 
-$(function () { $("#menu").load("menu.html"); });
+// $(function () { $("#menu").load("menu.html"); });
